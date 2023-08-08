@@ -1,0 +1,350 @@
+//@import url('https://fonts.cdnfonts.com/css/rancho');
+//@import url('https://fonts.cdnfonts.com/css/ambit');
+
+//@import url("../fonts/Rancho-Regular.woff");
+
+$primary : #8B109B;
+
+@font-face {
+  font-family: 'Rancho';
+  src: url('../fonts/Rancho-Regular.woff') format('opentype');
+}
+
+@font-face {
+  font-family: 'Ambit';
+  src: url('../fonts/ambit.otf') format('opentype');
+}
+
+@import "~bootstrap/scss/bootstrap";
+
+a,p,button,h3,h4,h5,h6{
+  font-family: 'Ambit', sans-serif;
+}
+
+.font-family-rancho{
+  font-family: 'Rancho', sans-serif;
+}
+
+.fs-10{
+  font-size: 10px;
+}
+.fs-11{
+  font-size: 11px;
+}
+.fs-12{
+  font-size: 12px;
+}
+.fs-13{
+  font-size: 13px;
+}
+.fs-14{
+  font-size: 14px;
+}
+.fs-15{
+  font-size: 15px;
+}
+.fs-16{
+  font-size: 16px;
+}
+.fs-22{
+  font-size: 22px;
+}
+.fs-24{
+  font-size: 24px;
+}
+
+.fs-70{
+  font-size: 6rem;
+}
+.fw-400{
+  font-weight: 400;
+}
+.fw-500{
+  font-weight: 500;
+}
+.fw-600{
+  font-weight: 600;
+}
+.text-light-gray-400{
+  color: #605A5A;
+}
+
+.logo-size{
+  object-fit: cover !important;
+}
+
+.btn-site{
+  padding: 12px 30px !important;
+}
+.btn-primary-light{
+  background-color: #8B109B06;
+  color: #8B109B;
+  border: 1px solid #8B109B24;
+  font-size: 15px;
+  font-weight: 400;
+}
+::placeholder{
+  font-size: 12px;
+  color: #605A5A;
+  font-weight: 400;
+}
+option {
+  font-size: 12px;
+  color: #605A5A;
+  font-weight: 400;
+}
+.text-gray-700{
+  color: #CCC7C7;
+}
+.btn-primary-light:hover{
+  background-color: #8B109B;
+  color: #ffffff;
+  border: 1px solid $primary;
+}
+.text-primary-light{
+  color: #CC2BEC;
+}
+.p-site{
+  font-size: 15px;
+  color: #605A5A;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+}
+.ls{
+  letter-spacing: 0.21em;
+}
+.section-padding{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.section-margin{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.bg-light-gray{
+  background-color: #F7F9FA;
+}
+.vh-80{
+  height: 75vh;
+}
+.vh-90{
+  height: 90vh;
+}
+.hero-img{
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.site-navbar{
+  .nav-link.active{
+    color: $primary !important;
+    font-weight: 600 !important;
+  }
+}
+
+.carousel-control-prev,.carousel-control-next{
+  position: unset;
+  display: block;
+  color: #605A5A !important;
+}
+
+.carousel-control-next:hover{
+  color: $primary !important;
+}
+.carousel-control-prev:hover{
+  color: $primary !important;
+}
+
+.bg-client-testimonial{
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+}
+.great-old-family{
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.max-hw-400{
+  height: 400px !important;
+  width: 100% !important;
+}
+.mt-100{
+  margin-top: 100px;
+}
+.pt-70{
+  padding-top: 70px;
+}
+.newsletter-section {
+  min-height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.outline-none:focus{
+  outline: 0;
+  box-shadow: none;
+
+}
+.bg-newsletter-input{
+  background-color: #CCC7C7
+;
+}
+.services-section{
+  min-height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  .service-card-icon{
+    border: 1px solid $primary;
+    background-color: #8B109B06;
+    padding: 10px;
+    border-radius: 73%;
+   svg{
+     color: $primary;
+     margin-top: -3px;
+   }
+  }
+
+  //.service-icon{
+  //  background-color: #8B109B20;
+  //  width: 40px;
+  //  height: 40px;
+  //  padding: 10px;
+  //  border-radius: 50%;
+  //  color: $primary;
+  //  border: 1px solid $primary;
+  //}
+  //.service-icon:hover{
+  //  background-color: $primary !important;
+  //  color: #ffffff;
+  //
+  //}
+
+  .service-card:hover > .service-card-icon{
+    background-color: $primary;
+    svg{
+      color: white;
+    }
+  }
+
+}
+.p-text-start{
+  text-align: left !important;
+}
+.hero-side-images{
+  max-width: 500px !important;
+}
+.cakes-section{
+  margin-top: -210px;
+}
+
+.img_hero1{
+
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.img_hero2{
+  width: 400px !important;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.latest-items-nav{
+    li{
+      a.nav-link {
+        min-width: 150px !important;
+        background-color: #CCC7C720 !important;
+        color: #8A8484 !important;
+        margin: 0 10px !important;
+        border: 1px solid #CCC7C740 !important;
+        border-radius: 20px !important;
+        font-size: 14px !important;
+      }
+      a.nav-link:hover {
+        background-color: #8B109B06 !important; ;
+        color: $primary !important;
+        font-width: 500;
+        border: 1px solid #8B109B20 !important;
+
+      }
+    }
+}
+
+//Product Page
+.h-card-img{
+  height: 220px;
+}
+
+.trash-img{
+  z-index: 99 !important;
+  top: 8px;
+  right: 10px;
+}
+
+@media (min-width: 1400px) {
+  .bottom-arrow{
+    bottom: 170px;
+    right: 35px !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .bottom-arrow{
+    bottom: 100px;
+    right: 35px !important;
+  }
+}
+
+@media (max-width: 992px) {
+  .bottom-arrow{
+    bottom: 20px;
+    right: 15px !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .bottom-arrow{
+    bottom: 30px;
+    right: 0 !important;
+  }
+}
+
+
+@media (max-width: 992px) {
+  .bg-client-testimonial{
+    background-size: cover;
+    background-position: center;
+  }
+  .cakes-section{
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+
+  .logo-size{
+    width: 200px !important;
+  }
+
+  .section-padding{
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .mt-100{
+    margin-top: 50px;
+  }
+  .section-margin{
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .fs-70{
+    font-size: 50px !important;
+  }
+  .pt-70{
+    padding-top: 40px !important;
+  }
+
+}
